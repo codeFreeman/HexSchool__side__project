@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/main.css">
+  <!-- favicon -->
+  <link rel="shortcut icon" href="image/favicon.ico" />
+  <title>Kaohsiung Travel Information</title>
+</head>
+<body>
+  <header class="header">
+    <div class="hero">
+      <label for="hero__input" class="hero__title">高雄旅遊資訊</label>
+      <input class="hero__input" id="hero__input" list="hero__dsitrict" type="text" placeholder="-- 請選擇行政區 --">
+       <datalist class="hero__dsitrict" id="hero__dsitrict"></datalist>
+    </div>
+  </header>
+  <section class="info">
+    <nav class="control">
+      <div class="control__title">熱門行政區</div>
+      <ul class="control__list">
+        <!-- <li class="control__items" data-index="0" data-dsitrict="楠梓區">楠梓區</li>
+        <li class="control__items" data-index="1" data-dsitrict="左營區">左營區</li>
+        <li class="control__items" data-index="2" data-dsitrict="鼓山區">鼓山區</li>
+        <li class="control__items" data-index="3" data-dsitrict="三民區">三民區</li>
+        <li class="control__items" data-index="4" data-dsitrict="三民區">三民區</li> -->
+      </ul>
+    </nav>
+    <div class="dropdown"><img class="dropdown__img" src="image/icons_down.png" alt=""></div>
+    <div class="info__title"></div>
+    <ul class="info__list">
+      <!-- <li class="info__items">
+        <div class="items__hero">
+          <img class="items__img" src="image/Hero.png" alt="">
+          <div class="items__name">高雄願景館</div>
+          <div class="items__dsitrict">三民區</div>
+        </div>
+        <div class="items__detial">
+          <div class="items__time">週二至週日10:00-18:00，每週一</div>
+          <div class="items__address">高雄市三民區建國二路318號</div>
+          <div class="items__phone">886-7-2363357</div>
+          <div class="items__free">免費參觀</div>
+        </div>
+      </li> -->
+    </ul>
+    <!-- <div class="info__page"> -->
+      <!-- <div class="info__prev">&lt; prev</div> -->
+      <!-- <div class="info__pages">1</div> -->
+      <!-- <div class="info__pages">2</div>
+      <div class="info__pages">3</div>
+      <div class="info__pages">4</div>
+      <div class="info__pages">5</div> -->
+      <!-- <div class="info__next">next  &gt;</div> -->
+    <!-- </div> -->
+  </section>
+  <footer class="footer">
+    <div class="footer__title">高雄旅遊網</div>
+    <div class="footer__subTitle">資料來源：高雄市政府</div>
+    <img class="footer__goTop" src="image/btn_goTop.png" alt="">
+  </footer>
+  <script src="js/kTravel.js"></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+# 檔案名稱 .gitignore
+
+# 忽略 node_modules檔案
+node_modules/*
+
